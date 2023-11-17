@@ -6,17 +6,13 @@ import Course from './components/courses/Course';
 import Note from './components/notes/Note';
 import Register from './components/register/Register';
 import Contact from './components/contact/Contact'
+import Blog from './components/Blog/Blog';
 
 export default function App() {
   return (
     <div>
         <ul>
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/login'>login</Link></li>
-            <li><Link to='/contact'>Contact</Link></li>
-            <li><Link to='/courses'>Courses</Link></li>
-            <li><Link to='/register'>Register</Link></li>
-            <li><Link to='/notes'>Notes</Link></li>
+   
         </ul>
 
         <Routes>
@@ -26,6 +22,7 @@ export default function App() {
         <Route path="/courses" element={<Course/>} />
         <Route path="/register" element={<Register/>} />
         <Route path="/notes" element={<Note/>} />
+        <Route path='/blogs' element={<Blog/>}/>
       </Routes>
     </div>
   )
