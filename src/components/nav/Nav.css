@@ -1,21 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .head-main{
     height: 60px;
-    background-color: #455770;
+    background-color: #fafbfb;
     display: flex;
     position: fixed;
     width: 100%;
-    z-index: 2;
-    margin-bottom: 150px;
+    z-index: 999;
+    top: 0;
 }
 .head-lf{
   height: 100%;
   width: 10%;
   align-items: center;
   display: block;
+  color: #7E22CE;
 
 }
 .head-mid{
@@ -30,12 +28,13 @@
    list-style: none;
    margin-left: 20px;
    margin-right: 20px;
+   color: #7E22CE; 
 }
 .head-mid ul li a{
    text-decoration: none;
    font-size: 24px;
    width: 50px;
-   color: black;
+   color: #7E22CE;
 }
 
 .head-rt{
@@ -49,8 +48,8 @@
         margin: 4px;
         margin-right: 10px;
         color: white;
-        background-color: rgb(147, 47, 47);
-        border: 2px solid rgb(147, 47, 47);
+        background-color: #7E22CE ; 
+        border: 2px #7E22CE;
         border-radius: 4px;
         margin-top: 20px;
         font-size: 20px;

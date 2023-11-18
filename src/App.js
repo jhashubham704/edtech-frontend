@@ -7,13 +7,13 @@ import Note from './components/notes/Note';
 import Register from './components/register/Register';
 import Contact from './components/contact/Contact'
 import Blog from './components/Blog/Blog';
+import Nav from './components/nav/Nav';
+import './App.css' ; 
 
 export default function App() {
   return (
-    <div>
-        <ul>
-   
-        </ul>
+    <div className='app'>
+      <Nav/>
 
         <Routes>
         <Route path="/" element={<Home />} />

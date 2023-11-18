@@ -4,8 +4,8 @@ import './Nav.css'
 
 export default function Nav() {
   return (
-    <div>
-      <div>
+    
+      
         <div className="head-main">
           <div className="head-lf">
             <h2>Edtech</h2>
@@ -36,7 +36,5 @@ export default function Nav() {
           </div>
         </div>
 
-      </div>
-    </div>
   );
 }
